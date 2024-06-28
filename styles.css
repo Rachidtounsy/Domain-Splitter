@@ -1,0 +1,72 @@
+body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  margin: 0;
+  background-color: #f4f4f4;
+}
+.app-logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px; /* Adjust as needed */
+    height: auto;
+    margin-bottom: 20px;
+}
+.container {
+    margin-top: 30px;
+  text-align: center;
+  width: 40%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#output {
+  margin-top: 20px;
+}
+
+.list {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.list h2 {
+  margin-bottom: 5px;
+}
+footer {
+            background-color: #87a5f8;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+        }
